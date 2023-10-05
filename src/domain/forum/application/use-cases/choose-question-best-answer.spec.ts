@@ -4,8 +4,8 @@ import { ChooseQuestionBestAnswerUseCase } from '@/domain/forum/application/use-
 import { makeQuestion } from 'tests/factories/make-question'
 import { makeAnswer } from 'tests/factories/make-answer'
 import { UniqueEntityID } from '@/core/entities/unique-entity-id'
-import { ResourceNotFoundError } from '@/domain/forum/application/use-cases/errors/resource-not-found-error'
-import { NotAllowedError } from '@/domain/forum/application/use-cases/errors/not-allowed-error'
+import { ResourceNotFoundError } from '@/core/errors/resource-not-found-error'
+import { NotAllowedError } from '@/core/errors/not-allowed-error'
 import { InMemoryQuestionAttachmentsRepository } from 'tests/repositoires/in-memory-question-attachments-repository'
 import { InMemoryAnswerAttachmentsRepository } from 'tests/repositoires/in-memory-answer-attachments-repository'
 
